@@ -1,3 +1,11 @@
+def calcular_Categoria(total):
+    if total < 200000:
+        categoria = "Economica"
+    elif total < 500000:
+        categoria = "Estandar"
+    else:
+        categoria = "Premium"
+    return categoria
 #Validaciones
 
 #Opcion 6 Menu
